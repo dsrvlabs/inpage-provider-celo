@@ -39,7 +39,7 @@ function initProvider ({
  * @param {MetaMaskInpageProvider} providerInstance - The provider instance.
  */
 function setGlobalProvider (providerInstance) {
-  window.ethereum = providerInstance
+  window.celo = providerInstance
   window.dispatchEvent(new Event('ethereum#initialized'))
 }
 
