@@ -74,7 +74,7 @@ export class MetaMaskInpageProvider extends EventEmitter {
   /**
    * Indicating that this provider is a MetaMask provider.
    */
-  readonly isMetaMask: true;
+  readonly isDesktop: true;
 
   /**
    * The user's currently selected Ethereum address.
